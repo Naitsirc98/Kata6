@@ -12,7 +12,7 @@ public class Kata6 {
 
 	public static void main(String[] args) {
 		
-		Directory root = new Directory(new File("C:\\Users\\naits\\Desktop\\Albums"));
+		Directory root = new Directory(new File("/"));
 		
 		Histogram<Float> hist = new Histogram<>(
 				new FileLengthIterator(root, LengthUnit.KB));
